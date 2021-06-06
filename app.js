@@ -6,7 +6,7 @@ var path = require('path')
 var mount = require('mount-routes')
 
 var app = express()
-
+app.use(express.static(__dirname + '/dist'));
 
 /**
  *
